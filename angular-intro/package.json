@@ -1,11 +1,8 @@
 {
-  "name": "angular-intro",
+  "name": "gestion-comercial",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "album": "ng run photo-album:serve",
-    "blog": "ng run blog:serve",
-    "nba": "ng run nba-champions:serve",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -32,6 +29,7 @@
     "@angular-devkit/build-angular": "~0.1002.0",
     "@angular/cli": "~10.2.0",
     "@angular/compiler-cli": "~10.2.0",
+    "@angular/flex-layout": "^10.0.0-beta.32",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
