@@ -1,0 +1,14 @@
+article{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  img{
+    width:500px;
+    height: 400px;
+  }
+  p{
+    width:500px;
+  }
+}

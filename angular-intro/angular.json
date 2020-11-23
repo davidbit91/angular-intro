@@ -39,7 +39,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/gestion-comercial",
+            "outputPath": "dist/angular_intro",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -149,5 +149,5 @@
       }
     }
   },
-  "defaultProject": "gestion-comercial"
+  "defaultProject": "angular-intro"
 }
