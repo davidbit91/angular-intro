@@ -10,7 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Ex01Component } from './ex01/ex01.component';
 import { Ex02Component } from './ex02/ex02.component';
 import { Ex03Component } from './ex03/ex03.component';
-import { Ex02DetailComponent } from './ex02-detail/ex02-detail.component';
+import { Ex02CommentsComponent } from './ex02-comments/ex02-comments.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { Ex02DetailComponent } from './ex02-detail/ex02-detail.component';
     Ex01Component,
     Ex02Component,
     Ex03Component,
-    Ex02DetailComponent,
+    Ex02CommentsComponent,
 
   ],
   imports: [
