@@ -1,1 +1,15 @@
-<p>ex03 works!</p>
+<div class="container">
+  <div class="champion" *ngFor="let champion of championList">
+    <p>{{champion.year}}</p>
+    <p>
+      <strong>{{ champion.champion }}</strong>
+    </p>
+    <img src="{{champion.logo}}" alt="">
+    <mat-list>
+      <p><strong>Best Players</strong></p>
+      <mat-list-item *ngFor="let player of champion.bestPlayers">
+        {{player}}
+      </mat-list-item>
+    </mat-list>
+  </div>
+</div>
